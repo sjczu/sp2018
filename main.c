@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 
 int main()
 {
-    printf("hello\n");
+    srand(time(NULL));
+    printf("random=%d",rand());
     return 0;
 }
