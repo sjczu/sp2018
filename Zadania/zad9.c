@@ -13,11 +13,12 @@ int main()
   scanf("%f",&min);
   printf("Wartość końcowa=");
   scanf("%f",&max);
-  for(min;min=max;min=min+step)
+  printf("Skok=");
+  scanf("%f",&step);
+  for(min=min;min<=max;min=min+step)
   {
-    pierw=sqrt(min)
-    printf("%f\t%f\n",min,pierw);
-    min=min+step;
+    pierw=sqrt(min);
+    printf("%.4f\t%.4f\n",min,pierw);
   }
   return 0;
 }
