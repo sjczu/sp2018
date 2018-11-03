@@ -10,7 +10,7 @@ int main()
     printf("How many fibonacci numbers u want to generate?");
     scanf("%d",&dim);
     fib=(int*)malloc(dim*sizeof(int));
-    if(fib=NULL)
+    if(fib==NULL)
     {
         printf("ERROR");
         return EXIT_FAILURE;
