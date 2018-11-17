@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 
+// 7. Napisz program, który wczyta liczbę rzeczywistą i wypisze 
+// jej odwrotność oraz jej pierwiastek kwadratowy. Program nie 
+// powinien obliczać odwrotności liczby 0 oraz pierwiastka z 
+// liczby ujemnej. W takiej sytuacji zamiast obliczeń program 
+// powinien wypisać odpowiedni komunikat.
+
 //lista fcji
 void load_data(int* a);
 void print_data(int a, int b, float c);

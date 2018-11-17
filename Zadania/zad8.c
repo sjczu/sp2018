@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
+// 8. Napisz program, który prosi użytkownika o wprowadzenie 
+// trzech liczb z klawiatury, a następnie wypisze sumę, iloczyn, 
+// najmniejszą i największą z wprowadzonych liczb.
+
 //lista fcji
 int max(int a, int b,int c);
 int min(int a,int b,int c);
