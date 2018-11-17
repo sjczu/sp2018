@@ -14,10 +14,7 @@
 
 int main()
 {
-  float min;
-  float max;
-  float step;
-  float sqr;
+  float min, max, step, sqr;
   
   printf("Wartość początkowa=");
   scanf("%f",&min);
