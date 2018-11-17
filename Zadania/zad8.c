@@ -30,7 +30,7 @@ int max(int a,int b,int c)
   return m;
 }
 
-//najwieksza wartosc
+//najmniejsza wartosc
 int min(int a,int b,int c)
 {
   int m=a;
