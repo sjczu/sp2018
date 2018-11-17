@@ -17,7 +17,7 @@ int main()
   float min;
   float max;
   float step;
-  float pierw;
+  float sqr;
   
   printf("Wartość początkowa=");
   scanf("%f",&min);
@@ -27,8 +27,8 @@ int main()
   scanf("%f",&step);
   for(min=min;min<=max;min=min+step)
   {
-    pierw=sqrt(min);
-    printf("%.4f\t%.4f\n",min,pierw);
+    sqr=sqrt(min);
+    printf("%.4f\t%.4f\n",min,sqr);
   }
   return 0;
 }
