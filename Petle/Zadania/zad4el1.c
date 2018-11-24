@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
+//Wypisuje silnie liczby <= 5
+
 int main()
 {
   int x;
