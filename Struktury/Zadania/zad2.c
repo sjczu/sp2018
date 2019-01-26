@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//2. Napisać funkcję disjointrect sprawdzającą, 
+//czy prostokąty są rozłączne.
+
 typedef struct point{
   int x;
   int y;
@@ -21,12 +24,10 @@ int main()
   printf("Podaj współrzędne ll i ur dla r1 i r2:\n");
   scanf("%d %d %d %d",&r1.ll.x, &r1.ll.y, &r1.ur.x, &r1.ur.y); 
   scanf("%d %d %d %d",&r2.ll.x, &r2.ll.y, &r2.ur.x, &r2.ur.y);
-  
   if(disjointrect(r1,r2) == 1)
     printf("Rozłączne\n");
   else
     printf("Nie są rozłączne\n");
-
   return 0;
 }
 
