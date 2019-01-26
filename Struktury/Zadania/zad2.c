@@ -4,12 +4,14 @@
 //2. Napisać funkcję disjointrect sprawdzającą, 
 //czy prostokąty są rozłączne.
 
-typedef struct point{
+typedef struct point
+{
   int x;
   int y;
 };
 
-typedef struct rect{
+typedef struct rect
+{
   struct point ll;
   struct point ur;
 };
@@ -31,16 +33,19 @@ int main()
   return 0;
 }
 
-int ptinrect(struct point p,struct rect r){
+int ptinrect(struct point p,struct rect r)
+{
   return p.x >= r.ll.x && p.x < r.ur.x
       && p.y >= r.ll.y && p.y < r.ur.y;
 }
 
-int rectinrect(struct rect r1,struct rect r2){
+int rectinrect(struct rect r1,struct rect r2)
+{
   return ptinrect(r1.ur, r2) && ptinrect(r1.ur, r2);
 }
 
-int disjointrect(struct rect r1,struct rect r2){
+int disjointrect(struct rect r1,struct rect r2)
+{
   if(rectinrect(r1, r2) == 0)
     return 1;
   else
